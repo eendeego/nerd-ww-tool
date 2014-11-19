@@ -1,0 +1,17 @@
+{
+  "name": "weight",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "jsdom": "^0.10.5",
+    "d3": "^3.4.6",
+    "minimist": "0.0.8",
+    "request": "^2.34.0"
+  }
+}

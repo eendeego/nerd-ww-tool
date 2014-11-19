@@ -1,0 +1,42 @@
+text {
+  fill: #fff;
+  font-size: 28px;
+}
+
+text.timestamp {
+  fill: #fff;
+  font-size: 14px;
+  opacity: 0.3;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #fff;
+  shape-rendering: crispEdges;
+}
+
+.x.axis path {
+  fill: none;
+  stroke: #fff;
+  shape-rendering: crispEdges;
+}
+
+.line {
+  fill: none;
+  stroke: #fff;
+  stroke-width: 2px;
+  opacity: 0.5;
+}
+
+.detail {
+  stroke-dasharray: 5,5;
+}
+
+.linear-regression.bad, .moving-average.bad {
+  stroke: #ff0000;
+}
+
+.linear-regression.good, .moving-average.good {
+  stroke: #00ff00;
+}

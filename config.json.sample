@@ -1,0 +1,16 @@
+{
+  "trueweight" : {
+    "secret" : "MY_-SEC-RET"
+  },
+  "chart" : {
+    "stylesheetURL" : "../styles/default.css",
+    "width" : 1300,
+    "height" : 300,
+    "margin" : {
+      "top": 20,
+      "right": 60,
+      "bottom": 40,
+      "left": 64
+    }
+  }
+}
