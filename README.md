@@ -5,11 +5,20 @@ Watch your weight on your desktop via Nerd Tool.
 This project fetches data from [True Weight](http://www.madeupsoftware.com/trueweight/home.html),
 plots it via [D3](http://d3js.org/) to SVG.
 
-This SVG is then rasterized via ImageMagick or Batik (later gives best results.)
+Two charts are generated: a long term chart (with full weight history) and a
+shorter term chart (current period starting at an hardcoded date - for now).
+
+These SVGs are then rasterized via ImageMagick or Batik (later gives best results.)
 
 Note: ImageMagick and/or Batik must be installed separately.
 
-The final png image can be shown by [Nerd Tool](http://mutablecode.com/apps/nerdtool.html).
+The final png images can be shown by [Nerd Tool](http://mutablecode.com/apps/nerdtool.html).
+
+The shorter period chart is also complemented with a moving average and a linear regression (see your current trend).
+
+# Sample charts
+
+(TODO)
 
 # Automatic updates
 
